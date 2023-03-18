@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education's</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        h1{
+            background-color: cyan;
+            color: black;
+        }
+        .container {
+            display: flex;
+            align-items: center;
+            /* justify-content: center; */
+            justify-content: space-between;
+
+
+        }
+        .box {
+            width: 280px;
+            height: 250px;
+            padding: 20px;
+            margin: 8px;
+            border-radius: 10px;
+
+        }
+        h2{
+            text-align: center;
+        }
+        p{
+            font-size: 1.2em;
+        }
+        .pink {
+            background-color: rgb(245, 185, 161);
+            border-left: 10px solid rgb(238, 67, 195);
+        }
+
+        .green {
+
+            background-color: rgb(143, 224, 143);
+            border-left: 10px solid rgb(0, 255, 85);
+        }
+
+        .blue {
+
+            background-color: rgb(190, 190, 235);
+            border-left: 10px solid rgb(132, 0, 255);
+        }
+
+        .yellow {
+
+            background-color: rgb(235, 235, 133);
+            border-left: 10px solid rgb(235, 200, 50);
+        }
+
+
+@media (max-width: 768px) {
+    .container{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+    </style>
+</head>
+
+<body>
+    <center>
+        <h1>-: Education :-</h1>
+    </center>
+
+    
+        <div class="container">
+            <div class="box pink">
+                <h2>10th</h2>
+                <p>School - S.S.V.M. Athner</p>
+                <p>Percentage - 70%</p>
+            </div><br>
+
+            <div class="box green">
+
+                <h2>12th</h2>
+
+                <p>School - Govt.H.S.School Athner</p>
+                <p>Percentage - 68%</p>
+            </div><br>
+
+            <div class="box blue">
+
+                <h2>B.Sc.(Computer Science)</h2>
+
+                <p>School - V.V.M.Collage Betul</p>
+                <p>Percentage - 71%</p>
+            </div><br>
+
+            <div class="box yellow">
+
+                <h2> MCA (Runing)</h2>
+
+                <p>School - LNCT Gruph of Collage Bhopal</p>
+                <p>CGPA - 8.37</p>
+            </div>
+        </div>
+        </div>
+   
+
+</body>
+
+</html>
